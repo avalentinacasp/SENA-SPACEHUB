@@ -1,0 +1,18 @@
+:root{
+  --spacehub-bg:#0b1222;
+  --spacehub-header:#020617;
+  --spacehub-card:#020817;
+  --spacehub-card-2:#101a2d;
+  --spacehub-border:#26344d;
+  --spacehub-text:#f1f5f9;
+  --spacehub-muted:#91a4c2;
+  --spacehub-green:#39a900;
+  --spacehub-cyan:#28b9f4;
+  --spacehub-yellow:#ffbd21;
+}
+*{box-sizing:border-box}
+html,body,#root{min-height:100%;margin:0}
+html{background:#e9edf3}
+body{min-width:320px;background:var(--spacehub-bg);color:var(--spacehub-text);font-family:"JetBrains Mono","Fira Code",ui-monospace,SFMono-Regular,Consolas,monospace;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit}
+a{color:inherit}
